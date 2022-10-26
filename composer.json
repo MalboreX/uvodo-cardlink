@@ -1,0 +1,48 @@
+{
+    "name": "malborex/uvodo-cardlink",
+    "description": "Cardlink plugin for Uvodo",
+    "version": "1.0.0",
+    "type": "uvodo-plugin",
+    "homepage": "https://uvodo.com/plugins/cardlink",
+    "time": "2022-07-05",
+    "license": "Uvodo License",
+    "authors": [
+        {
+            "name": "Uvodo",
+            "email": "info@uvodo.com",
+            "homepage": "https://uvodo.com",
+            "role": "Uvodo"
+        }
+    ],
+    "support": {
+        "chat": "https://uvodo.com/support/chat",
+        "docs": "https://uvodo.com/support/docs",
+        "email": "support@uvodo.com",
+        "forum": "https://uvodo.com/",
+        "issues": "https://github.com/uvodohq/plugins-string",
+        "rss": "https://uvodo.com/",
+        "source": "https://gitlab.com/uvodo/plugins/stripe",
+        "wiki": "https://gitlab.com/uvodo/plugins/stripe/-/wikis"
+    },
+    "require": {
+        "uvodohq/composer": "^1.0.0"
+    },
+    "extra": {
+        "entry-class": "Uvodo\\Cardlink\\CardlinkPlugin",
+        "title": "Cardlink",
+        "description": "Cardlink provides payments infrastructure for the internet. This plugin integrates Cardlink as payment gateway to the Uvodo.",
+        "logo": "https://cdn.uvodo.com/plugins/logo/PayPal.svg",
+        "icon": "https://cdn.uvodo.com/plugins/logo/paypal.png",
+        "status": "inactive",
+        "assets-source": "/app/dist/assets",
+        "entry-ui-file": "/app/dist/index.html"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uvodo\\Cardlink\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": true
+    }
+}

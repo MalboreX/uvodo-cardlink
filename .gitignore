@@ -1,0 +1,18 @@
+# VS CODE Workspace file
+*.code-workspace
+
+# IntelliJ IDE files
+**/.idea
+
+# OS X Desktop Services Store files
+**/.DS_Store
+
+# Vendors
+/vendor/
+
+# Build files
+*/node_modules/*
+/build/
+
+# Composer generated lock file
+composer.lock
